@@ -2,32 +2,43 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>洛克王国工具站</title>
+    <title>宠物图鉴</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-50 flex items-center justify-center min-h-screen">
-    <div class="text-center bg-white p-10 rounded-3xl shadow-2xl max-w-sm w-full border border-slate-100">
-        <div class="mb-10">
-            <h1 class="text-3xl font-black text-slate-800 mb-2">🏰 洛克王国工具站</h1>
-            <p class="text-slate-400 text-sm">个人数据管理与图鉴浏览中心</p >
+<body class="bg-gray-100 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-black mb-8 text-gray-800">宠物图鉴</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-4 rounded-2xl shadow-md flex items-center border 
+border-gray-200">
+                < img src="fire.png" class="w-16 h-16 object-contain shrink-0">
+                <div class="ml-4">
+                    <h3 class="font-bold text-lg">火花</h3>
+                    <span class="text-xs font-bold text-orange-500 bg-orange-100 px-2 py-0.5 
+rounded">火系</span>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-2xl shadow-md flex items-center border 
+border-gray-200">
+                < img src="grass.png" class="w-16 h-16 object-contain shrink-0">
+                <div class="ml-4">
+                    <h3 class="font-bold text-lg">喵喵</h3>
+                    <span class="text-xs font-bold text-green-500 bg-green-100 px-2 py-0.5 
+rounded">草系</span>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-2xl shadow-md flex items-center border 
+border-gray-200">
+                < img src="water.png" class="w-16 h-16 object-contain shrink-0">
+                <div class="ml-4">
+                    <h3 class="font-bold text-lg">水蓝蓝</h3>
+                    <span class="text-xs font-bold text-blue-500 bg-blue-100 px-2 py-0.5 
+rounded">水系</span>
+                </div>
+            </div>
         </div>
-
-        <div class="space-y-4">
-            <a href="roco.html" class="block w-full py-4 bg-green-500 hover:bg-green-600 
-text-white 
-font-bold rounded-2xl transition duration-300 shadow-lg shadow-green-200 text-lg">
-                🐾 进入宠物图鉴
-            </a >
-            
-            <a href="admin.html" class="block w-full py-4 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-2xl transition duration-300 shadow-lg shadow-blue-200 text-lg">
-                ⚙️ 进入管理后台
-            </a >
-        </div>
-
-        <div class="mt-10 pt-6 border-t border-slate-50">
-            <p class="text-slate-300 text-xs italic">Powered by lsp-28's Server</p >
-        </div>
+        <a href=" " class="inline-block mt-12 text-blue-600 font-bold hover:underline">← 
+返回首页</a >
     </div>
 </body>
 </html>
