@@ -3,33 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>洛克王国工具站</title>
+    <title>洛克王国指南 - 宠物图鉴</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-50 flex items-center justify-center min-h-screen">
-    <div class="text-center bg-white p-10 rounded-3xl shadow-2xl max-w-sm w-full border 
-border-slate-100">
-        <div class="mb-10">
-            <h1 class="text-3xl font-black text-slate-800 mb-2">🏰 洛克王国工具站</h1>
-            <p class="text-slate-400 text-sm">个人数据管理与图鉴浏览中心</p >
-        </div>
+<body class="bg-gray-50 flex min-h-screen">
 
-        <div class="space-y-4">
-            <a href="roco.html" class="block w-full py-4 bg-green-500 hover:bg-green-600 
-text-white 
-font-bold rounded-2xl transition duration-300 shadow-lg shadow-green-200 text-lg">
-                🐾 进入宠物图鉴
-            </a >
-            
-            <a href="admin.html" class="block w-full py-4 bg-blue-500 hover:bg-blue-600 
-text-white font-bold rounded-2xl transition duration-300 shadow-lg shadow-blue-200 text-lg">
-                ⚙️ 进入管理后台
-            </a >
-        </div>
+    <aside class="w-64 bg-white border-r border-gray-100 p-6 hidden md:block">
+        <a href=" " class="text-blue-600 text-sm font-bold hover:underline">← 返回首页</a >
+        <h2 class="text-2xl font-black text-gray-800 mt-6 mb-8">洛克王国指南</h2>
+        <nav class="space-y-4">
+            <a href="roco.html" class="block py-2 px-4 bg-blue-50 text-blue-700 rounded-lg 
+font-bold">🐾 宠物图鉴</a >
+            <a href="admin.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 
+rounded-lg transition">⚙️ 管理后台</a >
+        </nav>
+    </aside>
 
-        <div class="mt-10 pt-6 border-t border-slate-50">
-            <p class="text-slate-300 text-xs italic">Powered by lsp-28's Server</p >
-        </div>
-    </div>
-</body>
-</html>
+    <main class="flex-1 p-8 md:p-12">
+        <section id="pets">
+            <h1 class="text-4xl font-black text-gray-900 mb-2">宠物图鉴</h1>
+            <p class="text-gray-500 mb-10">在这里记录你捕捉到的每一只精灵。</p >
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex 
+items-center hover:shadow-md transition">
+                    <div class="w-24 h-24 bg-orange-50 rounded-xl flex items-center 
+justify-center overflow-hidden shrink-0">
+                        < img src="烈火战神.png" alt="烈火战神" class="w-20 h-20 
+object-contain">
+                    </div>
+                    <div class="ml-6">
+                        <h3 class="text-xl font-bold text-gray-800">烈火战神</h3>
+                        <p class="text-gray-400 text-sm font-medium">lv.100</p >
+                        <p class="mt-2 text-orange-600 text-xs font-bold bg-orange-50 px-2 
+py-1 rounded inline-block">火系</p >
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex 
+items-center hover:shadow-md transition">
+                    <div class="w-24 h-24 bg-orange-50 rounded-xl flex items-center 
+justify-center overflow-hidden shrink-0">
+                        < img src="火花.png" alt="火花" class="w-20 h-20 object-contain">
+                    </div>
+                    <div class="ml-6">
+                        <h3 class="text-xl font-bold text-gray-800">火花</h3>
+                        <p class="text-gray-400 text-sm font-medium">lv.10</p >
+                        <p class="mt-2 text-orange-600 text-xs font-bold bg-orange-50 px-2 
+py-1 rounded inline-block">火系</p >
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex 
+items-center hover:shadow-md transition">
+                    <div class="w-24 h-24 bg-green-50 rounded-xl flex items-center 
+justify-center overflow-hidden shrink-0">
+                        < img src="喵喵.png" alt="喵喵" class="w-20 h-20 object-contain">
+                    </div>
+                    <div class="ml-6">
+                        <h3 class="text-xl font-bold text-gray-800">喵喵</h3>
+                        <p class="text-gray-400 text-sm font-medium">lv.10</p >
+                        <p class="mt-2 text-green-600 text-xs font-bold bg-green-50 px-2 py-1 
+rounded inline-block">草系</p >
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100
